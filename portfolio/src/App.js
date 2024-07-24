@@ -1,13 +1,14 @@
 // import Navbar from "./components/Navbar";
 
-import HamburgerNavbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
+
 
 
 function App() {
   return (
     <div className="App">
-      {/* <Navbar/> */}
-      <HamburgerNavbar/>
+      <Navbar/>
+      {/* <HamburgerNavbar/> */}
     </div>
   );
 }
