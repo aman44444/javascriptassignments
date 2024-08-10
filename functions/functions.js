@@ -12,3 +12,8 @@ function subtraction() {
 }
 
 console.log("Subtraction", subtraction())
+
+let userName = prompt("What's your name?");
+let userAge = Number(prompt("How old are you?"));
+
+console.log(`Hello, ${userName}! You are ${userAge} years old.`);
